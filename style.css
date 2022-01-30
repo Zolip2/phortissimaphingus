@@ -12,6 +12,93 @@
     border: white;
 }
 
+#help {
+    position: absolute;
+    left: 1200px;
+    top: 300px;
+}
+
 body {
     background-color: grey;
+}
+
+#shop {
+    display: flex;
+    border: black solid 3px;
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    left: 2000px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#shoptext {
+    color: red;
+    height: 30px;
+    width: 57px;
+}
+
+#buttons {
+    height: 700px;
+    width: 800px;
+    border: black solid 3px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+    height: 46px;
+    width: 169px;
+    border-radius: 26px;
+    border: white;
+}
+
+#pink {
+    background-color: pink;
+    color: white;
+    height: 46px;
+    width: 169px;
+    border-radius: 26px;
+    border: white;
+}
+
+#green {
+    background-color: green;
+    color: white;
+    height: 46px;
+    width: 169px;
+    border-radius: 26px;
+    border: white;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+    height: 46px;
+    width: 169px;
+    border-radius: 26px;
+    border: white;
+}
+
+#brown {
+    background-color: brown;
+    color: white;
+    height: 46px;
+    width: 169px;
+    border-radius: 26px;
+    border: white;
+}
+
+#grey {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    height: 46px;
+    width: 169px;
+    border-radius: 26px;
+    border: white;
 }
